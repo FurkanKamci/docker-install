@@ -1,4 +1,8 @@
 
 sudo su
 
-curl https://raw.githubusercontent.com/FurkanKamci/docker-install/main/dockerinstall.sh | bash -
+curl -s https://raw.githubusercontent.com/FurkanKamci/docker-install/main/dockerinstall.sh | bash -
+
+or 
+
+curl -s https://raw.githubusercontent.com/FurkanKamci/docker-install/main/dockerinstall.sh | sh
